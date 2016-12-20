@@ -12,7 +12,7 @@ cd C:\Users\aschneid\AppData\Roaming\Code\User
 copy C:\GitHub\vscode-voice\settings.json  .
 copy C:\GitHub\vscode-voice\snippets\javascript.json .
 
-copy C:\GitHub\vscode-voice  C:\Voice\code.vcl   
+copy C:\GitHub\vscode-voice\code.vsl  C:\Voice\code.vcl   
  
 echo  All Done!
 
