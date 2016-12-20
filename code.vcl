@@ -46,3 +46,5 @@ Bottom = {Ctrl+End};
 
 
 # NOTE: add in navigating by delimiter
+
+Test = "this is a test";
