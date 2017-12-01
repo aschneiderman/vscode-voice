@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // When you  click on a file, open it in a new tab
+    // (By default, click gets you a preview, double-click actually opens the file)
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // When you restart code, opens all folders you'd been working on
+    // and open the editor to full screen if it had been full-screen when you left
+    "window.reopenFolders": "all",
+    "window.restoreFullscreen": true
+}
