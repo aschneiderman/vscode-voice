@@ -3,5 +3,15 @@
     {
         "key": "ctrl+alt+r",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
     }
 ]

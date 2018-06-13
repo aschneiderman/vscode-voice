@@ -3,27 +3,60 @@
 	 // Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and 
 	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
-	 // Example:
-	 "Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	}
 */
-"test":  {
-	"prefix": "Log",
-	"body": [
-		"this is a very $1 test,",
-		"but $2 could make it better."
+	
+"A-Frame template": {
+	"prefix": "a-template",
+	"body": ["<html>",
+		" <head>",
+		"   <title>$1</title>",
+		"   <script src=\"https://aframe.io/releases/0.7.0/aframe.min.js\"></script>",
+		" </head>",
+		"  <body>",
+		"   <a-scene>",
+		"    $2",
+		"   </a-scene>",
+		"  </body>",
+		"</html>" 
+	],
+	"description": "description"
+},
+
+"A-Frame rotation": {
+	"prefix": "a-rotation",
+	"body": " rotation=\"$1 $2 $3\"",
+	"description": "add a rotation to a component"
+},
+
+"A-Frame box": {
+	"prefix": "a-box",
+	"body": "<a-box position=\"$1 $2 $3\"  color=\"$4\" shadow></a-box>",
+	"description": "create a box (to add rotation, type rotation)"
+},
+
+"A-Frame text":  {
+	"prefix": "a-text",
+	"body": "      <a-text font=\"kelsonsans\" value=\"$1\" width=\"$2\" position=\"$3 $4 $5\"></a-text>",
+	"description": "create a line of text (to add rotation, type rotation)","
+},
+
+"A-Frame generic tag": {
+	"prefix": "a-tag",
+	"body": "<a-${1:tag} position=\"$2\"></a-${1:tag}>",
+	"description": "create a generic A-Frame tag"
+}
+
+"A-asset":  {
+	"prefix": "a-asset",
+	"body": [ "<a-assets>",
+				"$0",
+			  "</a-assets>"]
 	]
 },
-"d3 select all": {
-	"prefix": "d3-select-all"
-	"body": [
-		"d3.selectAll($1)"
-	]
-}
+
+"A-Mixin":  {
+	"prefix": "a-mixin",
+	"body": "<a-mixin id=\"$0\"></a-mixin>"
+},
+
 }
