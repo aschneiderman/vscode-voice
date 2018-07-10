@@ -6,12 +6,6 @@
     },
     {
         "key": "ctrl+alt+k",
-        "command": "workbench.action.terminal.clear",
-        "when": "terminalFocus"
+        "command": "workbench.action.terminal.clear"
     },
-    {
-        "key": "ctrl+k",
-        "command": "-workbench.action.terminal.clear",
-        "when": "terminalFocus"
-    }
 ]

@@ -1,5 +1,7 @@
 {
     "python.pythonPath": "C:\\Users\\Anders\\Anaconda3",
     "workbench.colorTheme": "Visual Studio Light",
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false
 }
